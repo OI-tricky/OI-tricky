@@ -1,0 +1,91 @@
+# Project information
+site_name: OI Tricky
+site_url: https://oi.lyccrius.site
+site_author: Lyccrius
+site_description: OI Tricky
+
+# Repository
+repo_name: 'lyccrius/oi'
+repo_url: 'https://github.com/lyccrius/oi'
+
+# Copyright
+copyright: 'Copyright &copy; 2023 - 2023 Lyccrius'
+
+# Configuration
+theme:
+  name: material
+  language: 'zh'
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+  favicon: 'favicon.png'
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.indexes
+  icon:
+    logo: 'material/school-outline'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+# Customization
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+# Page tree
+nav:
+  - 首页:
+    - 开始: index.md
+  - 算法基础:
+    - basic/index.md
+  - 搜索:
+    - search/index.md
+  - 动态规划:
+    - dp/index.md
+  - 字符串:
+    - string/index.md
+  - 数学:
+    - math/index.md
+  - 数据结构:
+    - ds/index.md
+  - 图论:
+    - graph/index.md
+  - 计算几何:
+    - geometry/index.md
+  - 杂项:
+    - misc/index.md
+  - 题库: 
+    - problemset/index.md
+    - Luogu: 
+      - problemset/luogu/index.md
+    - LibreOJ: 
+      - problemset/loj/index.md
+    - Universal Online Judge: 
+      - problemset/uoj/index.md
+    - AtCoder:
+      - problemset/at/index.md
+    - Codeforces:
+      - problemset/cf/index.md

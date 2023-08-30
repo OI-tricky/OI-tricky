@@ -5,8 +5,8 @@ site_author: Lyccrius
 site_description: OI Tricky
 
 # Repository
-repo_name: 'lyccrius/oi'
-repo_url: 'https://github.com/lyccrius/oi'
+repo_name: 'OI-tricky/OI-tricky'
+repo_url: 'https://github.com/OI-tricky/OI-tricky'
 
 # Copyright
 copyright: 'Copyright &copy; 2023 - 2023 Lyccrius'
